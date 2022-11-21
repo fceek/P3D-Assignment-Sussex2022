@@ -1,0 +1,54 @@
+{
+    "name": "CustomInputs",
+    "maps": [
+        {
+            "name": "Interactions",
+            "id": "b869edba-d6ed-4243-848e-72df832a91eb",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "9069ad36-ce6d-4a36-a6ed-264f4370a0ed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Throw",
+                    "type": "Button",
+                    "id": "49860aa6-4000-4f3e-8591-ce6be2c2a818",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8231c094-85fb-4a88-903d-f06d6f95d155",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b9e89af-1fd3-4b42-a872-7f89c544931d",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
