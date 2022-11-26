@@ -44,7 +44,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   type:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   sphericalMode:
     m_OverrideState: 0
@@ -300,7 +300,7 @@ MonoBehaviour:
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 6
   limitMax:
     m_OverrideState: 1
     m_Value: 14
@@ -395,8 +395,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   histogramPercentages:
-    m_OverrideState: 0
-    m_Value: {x: 40, y: 90}
+    m_OverrideState: 1
+    m_Value: {x: 28.088486, y: 93.970505}
   histogramUseCurveRemapping:
     m_OverrideState: 0
     m_Value: 0

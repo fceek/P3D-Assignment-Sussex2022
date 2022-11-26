@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b02b47-d733-43cf-9da8-9528e9614d49" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documents/References.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/References.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Blockout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Blockout.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Terrain/Terrain_Main.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Terrain/Terrain_Main.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Megascans/Surfaces/Stucco Facade_vftkfe0/Materials/Stucco Facade_vftkfe0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Megascans/Surfaces/Stucco Facade_vftkfe0/Materials/Stucco Facade_vftkfe0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRP Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRP Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRP High Fidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRP High Fidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRP Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRP Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SkyandFogSettingsProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="G:\Tools\Unity\2021.3.10f1\Editor\Unity.exe" />
@@ -82,6 +87,7 @@
       <workItem from="1667583117092" duration="3000" />
       <workItem from="1667789668193" duration="22000" />
       <workItem from="1668962207203" duration="21853000" />
+      <workItem from="1669434561265" duration="4000" />
     </task>
     <servers />
   </component>
