@@ -23,4 +23,9 @@
 
 ## Possible Improvements
 
-- Doors should be scaled down a bit to be real
+- Furthur improve samples when baking lightmap before submission
+- Promote handtooltip to a HUD manager
+
+## Animation
+
+- Animating root objects made single axis rotation not available, use the ReversedWindows root for temp solution

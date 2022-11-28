@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="27b02b47-d733-43cf-9da8-9528e9614d49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Documents/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Documents/References.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/References.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Blockout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Blockout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Coffee_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Coffee_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_2m.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_2m.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_4m.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_4m.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Deco.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Deco.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Ext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Ext.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Int.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Int.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NestedParent_Unpack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/NestedParent_Unpack.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Terrain/Terrain_Main.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Terrain/Terrain_Main.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Megascans/Surfaces/Stucco Facade_vftkfe0/Materials/Stucco Facade_vftkfe0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Megascans/Surfaces/Stucco Facade_vftkfe0/Materials/Stucco Facade_vftkfe0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRP Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRP Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRP High Fidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRP High Fidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRP Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRP Performant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SkyandFogSettingsProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Coffee_Table_90D_Artek/Coffee_Table_90D_Artek.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Coffee_Table_90D_Artek/Coffee_Table_90D_Artek.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Table_97_Artek/Table_97_Artek.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Table_97_Artek/Table_97_Artek.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Dining_Chair/Dining_Chair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Dining_Chair/Dining_Chair.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Sofa_SL03_Allemuir_Stirling.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Sofa_SL03_Allemuir_Stirling.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +100,7 @@
       <workItem from="1667789668193" duration="22000" />
       <workItem from="1668962207203" duration="21853000" />
       <workItem from="1669434561265" duration="4000" />
+      <workItem from="1669607652367" duration="4527000" />
     </task>
     <servers />
   </component>
