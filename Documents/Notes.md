@@ -13,3 +13,14 @@
 
  - Floor sizing
  - The orientation, position of balconies and views, front door vs garden door
+
+## Solving lighting problems
+
+- Promote version to 2022.1.23 even 2023.1.0a20 alpha
+- light probe
+- adjust lightmap parameters, contact shadow
+- reflection probe
+
+## Possible Improvements
+
+- Doors should be scaled down a bit to be real
