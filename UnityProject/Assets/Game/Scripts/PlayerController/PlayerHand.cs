@@ -18,11 +18,11 @@ public class PlayerHand : MonoBehaviour
     [SerializeField] private float interactionCooldown = 2.0f;
     [SerializeField] private float throwForce = 5.0f;
 
-    private GameObject _itemHolding;
+    public GameObject itemHolding;
     private Transform _parentCache;
     private float _lastInteractTime;
 
-    public bool IsFree => _itemHolding == null;
+    public bool IsFree => itemHolding == null;
 
     private BaseInteractable CurrentLookAt
     {
@@ -55,7 +55,7 @@ public class PlayerHand : MonoBehaviour
     private void FixedUpdate()
     {
         BaseInteractable target;
-        if (GetInteractTarget(out target) && target.gameObject != _itemHolding)
+        if (GetInteractTarget(out target) && target.gameObject != itemHolding)
         {
             CurrentLookAt = target;
         }
@@ -106,26 +106,38 @@ public class PlayerHand : MonoBehaviour
     
     private void TriggerInteractable()
     {
-        _currentLookAt.Interact();
+        _currentLookAt.OnInteract(this);
     }           
 
     private void PickUpItem()
     {
-        _itemHolding = _currentLookAt.gameObject;
-        _parentCache = _itemHolding.transform.parent;
-        _itemHolding.transform.SetParent(itemParent);
-        _itemHolding.transform.position = itemParent.position;
-        _itemHolding.GetComponent<Rigidbody>().isKinematic = true;
-        tooltip.ThrowTooltip(_itemHolding.GetComponent<BaseInteractable>().nameText);
+        PickUpItem(_currentLookAt);
+    }
+
+    public void PickUpItem(BaseInteractable item)
+    {
+        item.OnPickUp();
+        itemHolding = item.gameObject;
+        _parentCache = itemHolding.transform.parent;
+        itemHolding.transform.SetParent(itemParent);
+        itemHolding.transform.position = itemParent.position;
+        itemHolding.GetComponent<Rigidbody>().isKinematic = true;
+        tooltip.ThrowTooltip(itemHolding.GetComponent<BaseInteractable>().nameText);
     }
 
     private void ThrowItem()
     {
-        Rigidbody rb = _itemHolding.GetComponent<Rigidbody>();
-        _itemHolding.transform.SetParent(_parentCache, true);
+        Rigidbody rb = itemHolding.GetComponent<Rigidbody>();
+        itemHolding.transform.SetParent(_parentCache, true);
         rb.isKinematic = false;
         rb.AddForce(_mainCamera.transform.forward * throwForce, ForceMode.Impulse);
-        _itemHolding = null;
+        itemHolding = null;
+    }
+
+    public void ReleaseItem()
+    {
+        itemHolding.transform.SetParent(_parentCache, true);
+        itemHolding = null;
     }
     
     #endregion

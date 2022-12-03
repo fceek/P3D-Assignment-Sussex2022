@@ -29,3 +29,10 @@
 ## Animation
 
 - Animating root objects made single axis rotation not available, use the ReversedWindows root for temp solution
+
+## Code Struct
+
+- Don't start game-standard framework at the beginning
+- Find hard to arrange the scripts
+- Create a simple manager script for management
+- Have managers hard coded in script because just few modules

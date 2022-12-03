@@ -16,7 +16,7 @@ public class Door : BaseInteractable
         _isOpen = false;
     }
 
-    public override void Interact()
+    public override void OnInteract(PlayerHand _)
     {
         if (isLocked) return;
         _isOpen = !_isOpen;

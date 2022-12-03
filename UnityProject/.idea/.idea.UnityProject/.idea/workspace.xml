@@ -7,15 +7,13 @@
     <list default="true" id="27b02b47-d733-43cf-9da8-9528e9614d49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Documents/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documents/Notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Coffee_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Coffee_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Cabinet_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Cabinet_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Vanity_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Vanity_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser Closet_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Dresser Closet_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Table_End_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Table_End_02.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_2m.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_2m.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_4m.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Blockouts/Window_4m.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Deco.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Deco.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Ext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Ext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Int.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Door_Int.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/NestedParent_Unpack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/NestedParent_Unpack.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" afterDir="false" />
@@ -24,11 +22,39 @@
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Coffee_Table_90D_Artek/Coffee_Table_90D_Artek.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Coffee_Table_90D_Artek/Coffee_Table_90D_Artek.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Table_97_Artek/Table_97_Artek.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Artek/Table_97_Artek/Table_97_Artek.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Dining_Chair/Dining_Chair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Dining_Chair/Dining_Chair.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Sofa_SL03_Allemuir_Stirling.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Sofa_SL03_Allemuir_Stirling.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/BaseInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/BaseInteractable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/HandTooltip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/HandTooltip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/PlayerHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/PlayerHand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/AmpFBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/AmpFBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/GuitarFBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/GuitarFBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Amp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Amp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Amp_AO.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Amp_AO.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Guitar.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Guitar.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/LesPaul_AO.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/LesPaul_AO.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Plane.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/Plane.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Amp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Amp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Guitar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Guitar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Amp.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Amp.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/AmpTGA.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/AmpTGA.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Guitar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Guitar.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +64,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88d854ea2c91426ebc464f01cd71aa85157a00/d9/7e3485d6/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ca43be6378db4ff388dbec01f31ff19d1a000/ea/17701678/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/App.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Narrative/NarrativeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/PlayerHand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -101,6 +129,7 @@
       <workItem from="1668962207203" duration="21853000" />
       <workItem from="1669434561265" duration="4000" />
       <workItem from="1669607652367" duration="4527000" />
+      <workItem from="1670081263284" duration="12172000" />
     </task>
     <servers />
   </component>

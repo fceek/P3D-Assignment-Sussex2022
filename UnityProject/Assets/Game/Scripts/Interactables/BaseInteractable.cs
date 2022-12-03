@@ -9,9 +9,15 @@ public class BaseInteractable : MonoBehaviour
     public bool isPickup;
     public string nameText;
 
-    public virtual void Interact()
+    public virtual void OnInteract(PlayerHand hand)
     {
         //DEBUG
         Debug.Log($"Interacted with {nameText}");
+    }
+
+    public virtual void OnPickUp()
+    {
+        //DEBUG
+        Debug.Log($"Picked up {nameText}");
     }
 }

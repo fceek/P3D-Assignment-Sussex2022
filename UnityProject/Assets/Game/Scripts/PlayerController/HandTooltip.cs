@@ -59,15 +59,7 @@ public class HandTooltip : MonoBehaviour
 
     public void LookAtTooltip(BaseInteractable target)
     {
-        string interactionType;
-        if (target.isPickup)
-        {
-            interactionType = "pick up";
-        }
-        else
-        {
-            interactionType = "use";
-        }
+        string interactionType = target.isPickup ? "pick up" : "use";
 
         tooltipText.text = $"I can press E to {interactionType} {target.nameText}";
     }
