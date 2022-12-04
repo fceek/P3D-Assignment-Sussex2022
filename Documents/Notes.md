@@ -36,3 +36,8 @@
 - Find hard to arrange the scripts
 - Create a simple manager script for management
 - Have managers hard coded in script because just few modules
+
+## Triggers
+
+- Had to reverse trigger set up for vinyl to particle due to Unity behaviour: change is Kinematic trigger events unexpectly.
+- More structrual refactoring?

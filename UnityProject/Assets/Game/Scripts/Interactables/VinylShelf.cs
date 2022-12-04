@@ -11,18 +11,11 @@ public class VinylShelf : BaseInteractable
     [SerializeField] private List<GameObject> vinylsOnShelf;
 
     private int top;
-    private NarrativeCanvas nar;
 
     private void Awake()
     {
         top = 0;
     }
-
-    private void Start()
-    {
-        nar = App.Managers.GetNarrativeManager().NarrativeCanvas;
-    }
-
     public override void OnInteract(PlayerHand hand)
     {
         if (hand.IsFree)
@@ -54,5 +47,13 @@ public class VinylShelf : BaseInteractable
         vinyls[top].gameObject.SetActive(false);
         vinylsOnShelf[top].gameObject.SetActive(true);
         top++;
+        if (top >= 3)
+        {
+            Narrative.AddNarrative("Now it looks tidy, and he is happy.");
+        }
+        else
+        {
+            Narrative.AddNarrative("This has to be the correct shelf.");
+        }
     }
 }
