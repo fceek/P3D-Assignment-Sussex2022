@@ -12,6 +12,7 @@ public static class App
         Managers = new Managers();
         
         Managers.StartNarrativeManager();
+        Managers.StartInputManager();
         
         Debug.Log("Managers Initialised");
     }

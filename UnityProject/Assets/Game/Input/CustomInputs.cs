@@ -44,6 +44,15 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Proceed"",
+                    ""type"": ""Button"",
+                    ""id"": ""2a6b3f8f-4221-4698-b02b-c934e66a863f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -68,6 +77,17 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
                     ""action"": ""Throw"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""076f0b20-b1f8-4fb4-8d69-a69654f0e28e"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Proceed"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -78,6 +98,7 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
         m_Interactions = asset.FindActionMap("Interactions", throwIfNotFound: true);
         m_Interactions_Interact = m_Interactions.FindAction("Interact", throwIfNotFound: true);
         m_Interactions_Throw = m_Interactions.FindAction("Throw", throwIfNotFound: true);
+        m_Interactions_Proceed = m_Interactions.FindAction("Proceed", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -139,12 +160,14 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
     private IInteractionsActions m_InteractionsActionsCallbackInterface;
     private readonly InputAction m_Interactions_Interact;
     private readonly InputAction m_Interactions_Throw;
+    private readonly InputAction m_Interactions_Proceed;
     public struct InteractionsActions
     {
         private @CustomInputs m_Wrapper;
         public InteractionsActions(@CustomInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Interact => m_Wrapper.m_Interactions_Interact;
         public InputAction @Throw => m_Wrapper.m_Interactions_Throw;
+        public InputAction @Proceed => m_Wrapper.m_Interactions_Proceed;
         public InputActionMap Get() { return m_Wrapper.m_Interactions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -160,6 +183,9 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
                 @Throw.started -= m_Wrapper.m_InteractionsActionsCallbackInterface.OnThrow;
                 @Throw.performed -= m_Wrapper.m_InteractionsActionsCallbackInterface.OnThrow;
                 @Throw.canceled -= m_Wrapper.m_InteractionsActionsCallbackInterface.OnThrow;
+                @Proceed.started -= m_Wrapper.m_InteractionsActionsCallbackInterface.OnProceed;
+                @Proceed.performed -= m_Wrapper.m_InteractionsActionsCallbackInterface.OnProceed;
+                @Proceed.canceled -= m_Wrapper.m_InteractionsActionsCallbackInterface.OnProceed;
             }
             m_Wrapper.m_InteractionsActionsCallbackInterface = instance;
             if (instance != null)
@@ -170,6 +196,9 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
                 @Throw.started += instance.OnThrow;
                 @Throw.performed += instance.OnThrow;
                 @Throw.canceled += instance.OnThrow;
+                @Proceed.started += instance.OnProceed;
+                @Proceed.performed += instance.OnProceed;
+                @Proceed.canceled += instance.OnProceed;
             }
         }
     }
@@ -178,5 +207,6 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
     {
         void OnInteract(InputAction.CallbackContext context);
         void OnThrow(InputAction.CallbackContext context);
+        void OnProceed(InputAction.CallbackContext context);
     }
 }

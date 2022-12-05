@@ -6,11 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="27b02b47-d733-43cf-9da8-9528e9614d49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/VinylInteractable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/VinylInteractable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/BaseInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/BaseInteractable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Vinyl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Vinyl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/VinylShelf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/VinylShelf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-3.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-3.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-4.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-4.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-5.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-5.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/App.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Managers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Managers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Narrative/NarrativeCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Narrative/NarrativeCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/HandController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/HandController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +34,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88d854ea2c91426ebc464f01cd71aa85157a00/d9/7e3485d6/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ca43be6378db4ff388dbec01f31ff19d1a000/ea/17701678/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Core/App.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Folder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Narrative/FolderController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Narrative/NarrativeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/PlayerHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Triggers/ParticleTimeout.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,10 +77,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="160088">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="160088" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -87,6 +102,7 @@
       <workItem from="1669434561265" duration="4000" />
       <workItem from="1669607652367" duration="4527000" />
       <workItem from="1670081263284" duration="26073000" />
+      <workItem from="1670166807877" duration="8847000" />
     </task>
     <servers />
   </component>

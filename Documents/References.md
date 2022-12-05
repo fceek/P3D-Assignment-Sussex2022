@@ -8,3 +8,5 @@ Lighting...
 https://www.youtube.com/watch?v=DlxuvvYZO4Q
 
 Doors: https://www.turbosquid.com/3d-models/3d-door-1365093
+
+The fake news report was altered from: https://economictimes.indiatimes.com/news/international/us/icelandic-alternative-rock-band-low-roar-frontman-ryan-karazija-dies-at-40-heres-what-happened/articleshow/95210666.cms

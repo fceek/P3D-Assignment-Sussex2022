@@ -11,14 +11,12 @@ public class HandController : MonoBehaviour
 {
     [SerializeField] private PlayerHand playerHand;
     
-    private CustomInputs _customInputs;
 
     private void Start()
     {
-        _customInputs = new CustomInputs();
-        _customInputs.Enable();
-        _customInputs.Interactions.Interact.performed += OnInteraction;
-        _customInputs.Interactions.Throw.performed += OnThrow;
+        CustomInputs inputs = App.Managers.GetInputManager().CustomInputs;
+        inputs.Interactions.Interact.performed += OnInteraction;
+        inputs.Interactions.Throw.performed += OnThrow;
     }
 
     private void OnInteraction(InputAction.CallbackContext ctx)

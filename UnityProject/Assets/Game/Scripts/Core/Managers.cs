@@ -15,6 +15,7 @@ public class Managers
     
     //Add managers here
     private NarrativeManager _narrativeManager;
+    private InputManager _inputManager;
 
     private void Init()
     {
@@ -26,8 +27,6 @@ public class Managers
 
     public void StartNarrativeManager()
     {
-        if (_managers.TryGetComponent<NarrativeManager>(out _)) return;
-        
         GameObject temp = new GameObject("Narrative Manager");
         _narrativeManager = temp.AddComponent<NarrativeManager>();
         temp.transform.SetParent(_managers.transform);
@@ -36,5 +35,17 @@ public class Managers
     public NarrativeManager GetNarrativeManager()
     {
         return _narrativeManager;
+    }
+
+    public void StartInputManager()
+    {
+        GameObject temp = new GameObject("Input Manager");
+        _inputManager = temp.AddComponent<InputManager>();
+        temp.transform.SetParent(_managers.transform);
+    }
+
+    public InputManager GetInputManager()
+    {
+        return _inputManager;
     }
 }

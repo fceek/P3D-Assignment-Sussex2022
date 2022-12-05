@@ -19,7 +19,7 @@
 - Promote version to 2022.1.23 even 2023.1.0a20 alpha
 - light probe
 - adjust lightmap parameters, contact shadow
-- reflection probe
+- reflection probe, per axis control to blend adjacent area, avoid obivious flaw (use screenshots)
 
 ## Possible Improvements
 
@@ -40,4 +40,4 @@
 ## Triggers
 
 - Had to reverse trigger set up for vinyl to particle due to Unity behaviour: change is Kinematic trigger events unexpectly.
-- More structrual refactoring?
+- More structrual refactoring? - Promote not only the display but also input
