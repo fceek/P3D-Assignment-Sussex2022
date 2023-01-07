@@ -6,24 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27b02b47-d733-43cf-9da8-9528e9614d49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Input/CustomInputs.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Lighting.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-1.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-2.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-3.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-3.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-4.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-4.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-5.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Main/ReflectionProbe-5.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/App.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Managers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Core/Managers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Interactables/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Narrative/NarrativeCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Narrative/NarrativeCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/HandController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/PlayerController/HandController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +84,8 @@
       <workItem from="1669434561265" duration="4000" />
       <workItem from="1669607652367" duration="4527000" />
       <workItem from="1670081263284" duration="26073000" />
-      <workItem from="1670166807877" duration="8847000" />
+      <workItem from="1670166807877" duration="9438000" />
+      <workItem from="1670254556803" duration="675000" />
     </task>
     <servers />
   </component>
