@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class FolderController : MonoBehaviour
 {
@@ -26,10 +27,28 @@ public class FolderController : MonoBehaviour
 
     private void OnTurnPage(InputAction.CallbackContext ctx)
     {
-        if (_currentPage ==2 || Time.time <= _lastOperationTime + cooldown) return;
+        if (Time.time <= _lastOperationTime + cooldown) return;
+        if (_currentPage == 2)
+        {
+            LoadEnding();
+            return;
+        }
         pages[_currentPage].SetTrigger("TurnPage");
         pages[_currentPage + 1].gameObject.transform.SetAsLastSibling();
         _currentPage++;
         _lastOperationTime = Time.time;
+    }
+
+    private void LoadEnding()
+    {
+        Animator sceneFade = GameObject.FindGameObjectWithTag("SceneTransition").GetComponent<Animator>();
+        sceneFade.SetTrigger("StartFade");
+        StartCoroutine(LoadAfterFade());
+    }
+
+    private IEnumerator LoadAfterFade()
+    {
+        yield return new WaitForSeconds(0.9f);
+        SceneManager.LoadScene("Ending", LoadSceneMode.Single);
     }
 }

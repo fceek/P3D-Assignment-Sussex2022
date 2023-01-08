@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - NarrativeCanvas
+  - SceneTransition
   layers:
   - Default
   - TransparentFX

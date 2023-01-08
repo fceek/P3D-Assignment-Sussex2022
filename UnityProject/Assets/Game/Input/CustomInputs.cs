@@ -90,6 +90,34 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Quit"",
+            ""id"": ""0f776113-e03d-451e-bdb6-917ed1f2230a"",
+            ""actions"": [
+                {
+                    ""name"": ""QuitApp"",
+                    ""type"": ""Button"",
+                    ""id"": ""455a73f5-af70-46c8-ad73-2b3fb81eba50"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""7296a783-0f60-4f2d-940c-2e70a66c939b"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""QuitApp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -99,6 +127,9 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
         m_Interactions_Interact = m_Interactions.FindAction("Interact", throwIfNotFound: true);
         m_Interactions_Throw = m_Interactions.FindAction("Throw", throwIfNotFound: true);
         m_Interactions_Proceed = m_Interactions.FindAction("Proceed", throwIfNotFound: true);
+        // Quit
+        m_Quit = asset.FindActionMap("Quit", throwIfNotFound: true);
+        m_Quit_QuitApp = m_Quit.FindAction("QuitApp", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -203,10 +234,47 @@ public partial class @CustomInputs : IInputActionCollection2, IDisposable
         }
     }
     public InteractionsActions @Interactions => new InteractionsActions(this);
+
+    // Quit
+    private readonly InputActionMap m_Quit;
+    private IQuitActions m_QuitActionsCallbackInterface;
+    private readonly InputAction m_Quit_QuitApp;
+    public struct QuitActions
+    {
+        private @CustomInputs m_Wrapper;
+        public QuitActions(@CustomInputs wrapper) { m_Wrapper = wrapper; }
+        public InputAction @QuitApp => m_Wrapper.m_Quit_QuitApp;
+        public InputActionMap Get() { return m_Wrapper.m_Quit; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(QuitActions set) { return set.Get(); }
+        public void SetCallbacks(IQuitActions instance)
+        {
+            if (m_Wrapper.m_QuitActionsCallbackInterface != null)
+            {
+                @QuitApp.started -= m_Wrapper.m_QuitActionsCallbackInterface.OnQuitApp;
+                @QuitApp.performed -= m_Wrapper.m_QuitActionsCallbackInterface.OnQuitApp;
+                @QuitApp.canceled -= m_Wrapper.m_QuitActionsCallbackInterface.OnQuitApp;
+            }
+            m_Wrapper.m_QuitActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @QuitApp.started += instance.OnQuitApp;
+                @QuitApp.performed += instance.OnQuitApp;
+                @QuitApp.canceled += instance.OnQuitApp;
+            }
+        }
+    }
+    public QuitActions @Quit => new QuitActions(this);
     public interface IInteractionsActions
     {
         void OnInteract(InputAction.CallbackContext context);
         void OnThrow(InputAction.CallbackContext context);
         void OnProceed(InputAction.CallbackContext context);
+    }
+    public interface IQuitActions
+    {
+        void OnQuitApp(InputAction.CallbackContext context);
     }
 }

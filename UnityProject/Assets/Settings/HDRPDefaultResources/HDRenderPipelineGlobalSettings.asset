@@ -104,11 +104,27 @@ MonoBehaviour:
     serializedHasVolumes:
     - sceneGUID: e151af958915ffd4a857f38788aa6d96
       hasProbeVolumes: 0
+    - sceneGUID: b37b02961e92dd64f955c94c5c88e832
+      hasProbeVolumes: 0
     serializedProfiles:
     - sceneGUID: e151af958915ffd4a857f38788aa6d96
       profile: {fileID: 11400000, guid: a57cccf932a1ec648892fdbde17db897, type: 2}
+    - sceneGUID: b37b02961e92dd64f955c94c5c88e832
+      profile: {fileID: 11400000, guid: a57cccf932a1ec648892fdbde17db897, type: 2}
     serializedBakeSettings:
     - sceneGUID: e151af958915ffd4a857f38788aa6d96
+      settings:
+        dilationSettings:
+          enableDilation: 1
+          dilationDistance: 1.4
+          dilationValidityThreshold: 0.25
+          dilationIterations: 1
+          squaredDistWeighting: 1
+        virtualOffsetSettings:
+          useVirtualOffset: 0
+          outOfGeoOffset: 0.01
+          searchMultiplier: 0.2
+    - sceneGUID: b37b02961e92dd64f955c94c5c88e832
       settings:
         dilationSettings:
           enableDilation: 1
@@ -124,6 +140,7 @@ MonoBehaviour:
     - name: Default
       sceneGUIDs:
       - e151af958915ffd4a857f38788aa6d96
+      - b37b02961e92dd64f955c94c5c88e832
       settings:
         dilationSettings:
           enableDilation: 1
