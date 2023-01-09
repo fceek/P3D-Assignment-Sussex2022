@@ -213,7 +213,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3
   rayTracing:
     m_OverrideState: 1
     m_Value: 1
@@ -239,7 +239,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.1
   layerMask:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
@@ -266,7 +266,7 @@ MonoBehaviour:
     m_Value: 4
   m_RayLength:
     m_OverrideState: 1
-    m_Value: 20
+    m_Value: 40
   m_SampleCount:
     m_OverrideState: 1
     m_Value: 8
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31394aa05878563408489d5c1688f3a0, type: 3}
   m_Name: PathTracing
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -423,7 +423,7 @@ MonoBehaviour:
       m_Bits: 4294967295
   maximumSamples:
     m_OverrideState: 1
-    m_Value: 10000
+    m_Value: 16000
   minimumDepth:
     m_OverrideState: 1
     m_Value: 2
